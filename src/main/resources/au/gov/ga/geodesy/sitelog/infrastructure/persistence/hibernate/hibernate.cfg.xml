@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/GnssReceiver.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/GnssAntenna.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/FrequencyStandard.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/SiteLog.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/Agency.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/Contact.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/CollocationInformation.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/HumiditySensor.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/PressureSensor.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/SurveyedLocalTie.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/RadioInterference.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/MultipathSource.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/SignalObstruction.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/OtherInstrumentation.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/TemperatureSensor.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/WaterVaporSensor.hbm.xml"/>
+        <mapping resource="au/gov/ga/geodesy/sitelog/infrastructure/persistence/hibernate/LocalEpisodicEvent.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>
