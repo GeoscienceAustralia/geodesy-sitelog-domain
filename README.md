@@ -2,7 +2,7 @@
 
 In 2014, Geoscience Australia developed a prototype system to manage
 persistence and remote management of IGS site log XML files via OGC Web
-Services. This project is part the code base, and it deals with marshalling and
+Services. This project is part of the codebase, and it deals with marshalling and
 unmarshalling of site log XML files and persistence of site metadata into a
 relational database.
 
